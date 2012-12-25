@@ -1,0 +1,13 @@
+{
+  "name": "<Fill in with the name of your extension>",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "<Fill in with the description of your extension>",
+  "content_scripts": [
+    {
+      "matches": ["http://site1.com/*", "https://site2.com/*"],
+      "js": ["scripts/jquery-1.7.1.min.js", "scripts/extension.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
